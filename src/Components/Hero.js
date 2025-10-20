@@ -4,9 +4,9 @@ import { AiOutlineGithub,AiOutlineLinkedin,AiOutlineWhatsApp,AiOutlineMail , } f
 
 export default function Hero() {
     return (
-        <session className="flex px-5 py-32 bg-secondary justify-center">
-            <div className='w-1/2 flex flex-col'>
-                <h1 className=' text-white text-6xl font-hero-font'>Hi, 
+        <session className="flex md:flex-row flex-col px-5 py-32 bg-secondary justify-center">
+            <div className='md:w-1/2 flex flex-col'>
+                <h1 className=' text-white text-5xl font-hero-font'>Hi, 
                 <br /> I'm Lumin Titus S
                 <p className='text-2xl'>I'm a Frontend Developer</p>
                 </h1>
@@ -18,7 +18,7 @@ export default function Hero() {
 
                 </div>
             </div>
-       <img className='w-1/3' src={heroimg} />
+       <img className='md:w-1/3' src={heroimg} />
         </session>
     )
 }
