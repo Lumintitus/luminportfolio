@@ -2,7 +2,7 @@ import projectimg from '../images/programmer.png'
 
 export default function Projects() {
     return (
-        <section className="flex flex-col px-5 py-20 justify-center  font-hero-font bg-secondary text-white text-[3rem]">
+        <section id='project' className="flex flex-col px-5 py-20 justify-center  font-hero-font bg-secondary text-white text-[3rem]">
             <div className="w-full">
                 <div className="flex flex-col px-10 py-5">
                     <h1 className="text-4xl border-b-4 mb-5 font-bold w-[8.5rem]">Projects</h1>

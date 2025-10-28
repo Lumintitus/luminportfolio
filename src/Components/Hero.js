@@ -4,7 +4,7 @@ import { AiOutlineGithub,AiOutlineLinkedin,AiOutlineWhatsApp,AiOutlineMail , } f
 
 export default function Hero() {
     return (
-        <session className="flex md:flex-row flex-col px-5 py-32 bg-secondary justify-center">
+        <section id='hero' className="flex md:flex-row flex-col px-5 py-32 bg-secondary justify-center">
             <div className='md:w-1/2 flex flex-col'>
                 <h1 className=' text-white text-5xl font-hero-font'>Hi, 
                 <br /> I'm Lumin Titus S
@@ -19,6 +19,6 @@ export default function Hero() {
                 </div>
             </div>
        <img className='md:w-1/3 ' src={heroimg} />
-        </session>
+        </section>
     )
 }
