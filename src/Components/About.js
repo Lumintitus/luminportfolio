@@ -3,7 +3,7 @@ export default function About() {
     return (
         <section className="flex flex-col md:flex-row bg-secondary text-white font-hero-font px-6">
             <div className="md:w-1/2 py-5">
-                <img src={about} />
+                <img className="w-[450px]" src={about} />
             </div>
             <div className="md:w-1/2 flex justify-center ">
                 <div className="flex flex-col justify-center">

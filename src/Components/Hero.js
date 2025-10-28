@@ -18,7 +18,7 @@ export default function Hero() {
 
                 </div>
             </div>
-       <img className='md:w-1/3' src={heroimg} />
+       <img className='md:w-1/3 ' src={heroimg} />
         </session>
     )
 }
