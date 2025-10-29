@@ -5,9 +5,9 @@ export default function Projects() {
         <section id='project' className="flex flex-col px-5 py-20 justify-center  font-hero-font bg-secondary text-white text-[3rem]">
             <div className="w-full">
                 <div className="flex flex-col px-10 py-5">
-                    <h1 className="text-4xl border-b-4 mb-5 font-bold w-[8.5rem]">Projects</h1>
+                    <h1 className="text-3xl border-b-4 mb-5 font-bold w-[8rem]">Projects</h1>
                     <div className=''></div>
-                    <p className='text-[1rem] '>This are  some of my best projects. I have built these width React , javascript and Tailwind Css. Chect them out</p>
+                    <p className='text-xl'>This are  some of my best projects. I have built these width React , javascript and Tailwind Css. Chect them out</p>
                 </div>
 
             </div>
@@ -16,21 +16,21 @@ export default function Projects() {
                     <div className='relative'>
                         <img className='h-[370px] w-[500px]' src={projectimg}/>
                     <div className='project-desc'>
-                        <p className='text-center px-5 py-5'>E-Commerce Website build with Reactjs</p>
+                        <p className='text-center text-xl px-5 py-5'>E-Commerce Website build with Reactjs</p>
                     </div>
                     </div>
                     
                     <div className='relative'>
                         <img className='h-[370px] w-[500px]' src={projectimg}/>
                     <div className='project-desc'>
-                        <p className='text-center px-5 py-5'>E-Commerce Website build with Reactjs</p>
+                        <p className='text-center text-xl  px-5 py-5'>E-Commerce Website build with Reactjs</p>
                     </div>
                     </div>
                     
                     <div className='relative'>
                         <img className='h-[370px] w-[500px]' src={projectimg} />
                     <div className='project-desc'>
-                        <p className='text-center px-5 py-5'>E-Commerce Website build with Reactjs</p>
+                        <p className='text-center text-xl  px-5 py-5'>E-Commerce Website build with Reactjs</p>
                     </div>
                     </div>
                     

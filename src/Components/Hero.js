@@ -6,9 +6,9 @@ export default function Hero() {
     return (
         <section id='hero' className="flex md:flex-row flex-col px-5 py-32 bg-secondary justify-center">
             <div className='md:w-1/2 flex flex-col'>
-                <h1 className=' text-white text-5xl font-hero-font'>Hi, 
+                <h1 className=' text-white text-4xl font-hero-font'>Hi, 
                 <br /> I'm Lumin Titus S
-                <p className='text-2xl'>I'm a Frontend Developer</p>
+                <p className='text-xl'>I'm a Frontend Developer</p>
                 </h1>
                 <div className='flex py-8  gap-6 '>
                     <a href='#'><AiOutlineMail size={25} className='text-white hover:text-[#8765CC]'/></a>

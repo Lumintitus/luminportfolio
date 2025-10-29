@@ -5,7 +5,7 @@ export default function Header(){
    const [togglemenu, settogglemenu] = useState(false);
 
     return(
-        <header className="flex justify-between px-4 py-3 bg-primary ">
+        <header className="flex justify-between px-4 py-3 bg-primary text-xl font-hero-font sticky top-0 z-50">
             <a className="font-bold text-white" href="#">Lumin Titus S</a>
             <nav className="hidden md:block">
             <ul className="flex text-white">

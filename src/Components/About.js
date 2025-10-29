@@ -11,8 +11,8 @@ const config = {
             </div>
             <div className="md:w-1/2 flex justify-center ">
                 <div className="flex flex-col justify-center">
-                    <h1 className="text-4xl border-b-4 mb-5 font-bold w-[9rem]">About Me</h1>
-                    <p className="text-2xl">{config.intro}</p>
+                    <h1 className="text-3xl border-b-4 mb-5 font-bold w-[9rem]">About Me</h1>
+                    <p className="text-xl">{config.intro}</p>
                 </div>
 
             </div>

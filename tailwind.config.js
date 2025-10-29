@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily:{
-      'hero-font': "Oswald"
+      'hero-font': "Sriracha"
     }
   },
   plugins: [],
