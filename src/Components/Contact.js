@@ -7,7 +7,7 @@ export default function Contact() {
                
                     <h1 className="text-3xl border-b-4 mb-5 font-bold w-[7rem]">Contact</h1>
                     <p className="text-xl pb-5"> If You want to discuss more detail, please contact me.</p>
-                    <p className="py-2 text-xl"><span className="font-bold">Email: </span>lumintitus05@gmail.com..</p>
+                    <p className="py-2 text-xl"><span className="font-bold">Email: </span>lumintitus05@gmail.com</p>
                     <p className="py-2 text-xl"><span className="font-bold">Phone: </span>+91 9360730480.</p>
             </div>
         </section>

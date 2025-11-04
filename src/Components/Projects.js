@@ -1,4 +1,5 @@
-import projectimg from '../images/programmer.png'
+import todolistimg from '../images/do-to-list.png'
+import ecommerce from '../images/e-commerce.png'
 
 export default function Projects() {
     return (
@@ -14,21 +15,21 @@ export default function Projects() {
             <div className="w-full">
                 <div className='flex flex-col md:flex-row px-10 gap-5'>
                     <div className='relative'>
-                        <img className='h-[370px] w-[500px]' src={projectimg}/>
+                        <img className='h-[370px] w-[500px]' src={todolistimg}/>
                     <div className='project-desc'>
                         <p className='text-center text-xl px-5 py-5'>E-Commerce Website build with Reactjs</p>
                     </div>
                     </div>
                     
                     <div className='relative'>
-                        <img className='h-[370px] w-[500px]' src={projectimg}/>
+                        <img className='h-[370px] w-[500px]' src={ecommerce}/>
                     <div className='project-desc'>
                         <p className='text-center text-xl  px-5 py-5'>E-Commerce Website build with Reactjs</p>
                     </div>
                     </div>
                     
                     <div className='relative'>
-                        <img className='h-[370px] w-[500px]' src={projectimg} />
+                        <img className='h-[370px] w-[500px]' src={ecommerce} />
                     <div className='project-desc'>
                         <p className='text-center text-xl  px-5 py-5'>E-Commerce Website build with Reactjs</p>
                     </div>
