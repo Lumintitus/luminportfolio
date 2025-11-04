@@ -1,5 +1,6 @@
 import todolistimg from '../images/do-to-list.png'
 import ecommerce from '../images/e-commerce.png'
+import fabrica from '../images/fabrica.png'
 
 export default function Projects() {
     return (
@@ -14,27 +15,30 @@ export default function Projects() {
             </div>
             <div className="w-full">
                 <div className='flex flex-col md:flex-row px-10 gap-5'>
+                    <a href='https://github.com/Lumintitus/Calculator' target='_blank' rel='noopener noreferrer'>
+                        <div className='relative'>
+                            <img className='h-[370px] w-[500px]' src={todolistimg} />
+                            <div className='project-desc'>
+                                <p className='text-center text-xl px-5 py-5'>E-Commerce Website build with Reactjs</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href='https://github.com/Lumintitus/Fabrica' target='_blank' rel='noopener noreferrer'>
                     <div className='relative'>
-                        <img className='h-[370px] w-[500px]' src={todolistimg}/>
-                    <div className='project-desc'>
-                        <p className='text-center text-xl px-5 py-5'>E-Commerce Website build with Reactjs</p>
+                        <img className='h-[370px] w-[500px]' src={fabrica} />
+                        <div className='project-desc'>
+                            <p className='text-center text-xl  px-5 py-5'>E-Commerce Website build with Reactjs</p>
+                        </div>
                     </div>
-                    </div>
-                    
-                    <div className='relative'>
-                        <img className='h-[370px] w-[500px]' src={ecommerce}/>
-                    <div className='project-desc'>
-                        <p className='text-center text-xl  px-5 py-5'>E-Commerce Website build with Reactjs</p>
-                    </div>
-                    </div>
-                    
+                    </a>
+                    <a href='https://github.com/Lumintitus/https---github.com-Lumintitus-E-commerce-website-frontend-' target='_blank' rel='noopener noreferrer'>
                     <div className='relative'>
                         <img className='h-[370px] w-[500px]' src={ecommerce} />
-                    <div className='project-desc'>
-                        <p className='text-center text-xl  px-5 py-5'>E-Commerce Website build with Reactjs</p>
+                        <div className='project-desc'>
+                            <p className='text-center text-xl  px-5 py-5'>E-Commerce Website build with Reactjs</p>
+                        </div>
                     </div>
-                    </div>
-                    
+                    </a>
                 </div>
 
             </div>
