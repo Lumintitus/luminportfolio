@@ -11,10 +11,10 @@ export default function Hero() {
                 <p className='text-xl'>I'm a Frontend Developer</p>
                 </h1>
                 <div className='flex py-8  gap-6 '>
-                    <a href='#'><AiOutlineMail size={25} className='text-white hover:text-[#8765CC]'/></a>
-                    <a href='#'><AiOutlineGithub size={25} className='text-white hover:text-[#8765CC]'/></a>
-                    <a href='#'><AiOutlineLinkedin size={25} className='text-white hover:text-[#8765CC]'/></a>
-                    <a href='#'><AiOutlineWhatsApp size={25} className='text-white hover:text-[#8765CC]'/></a>
+                    <a href='mailto:lumintitus05@gmail.com'><AiOutlineMail size={25} className='text-white hover:text-[#8765CC]'/></a>
+                    <a href='https://github.com/Lumintitus'><AiOutlineGithub size={25} className='text-white hover:text-[#8765CC]'/></a>
+                    <a href='https://www.linkedin.com/in/lumin-titus-s-9ab904354/'><AiOutlineLinkedin size={25} className='text-white hover:text-[#8765CC]'/></a>
+                    <a href='https://wa.me/+919360730480'><AiOutlineWhatsApp size={25} className='text-white hover:text-[#8765CC]'/></a>
 
                 </div>
             </div>
